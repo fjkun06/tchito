@@ -1,0 +1,120 @@
+//General properties
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    //Container props
+    .container {
+        width: 100vw;
+        height: 100vh;
+        background: $homeColor;
+        font-size: 18px;
+
+        //Nav bar props
+       
+        .top {
+            color: $Text;
+            font-family: $headingStyle;
+            display: grid;
+            grid-template-columns: 70px 90px;
+            grid-gap: 2em;
+            justify-content: right;
+            padding-top: 1em;
+            width: 90%;
+            margin-left: 5%;
+
+            .palette{
+                display: none;
+            }
+
+            //Login and register props
+            .login,
+            .register {
+                font-size: 120%;
+                padding-bottom: 5px;
+                text-align: center;
+
+                &:hover {
+                    border-bottom: 3px solid $Orange;
+                    transition: all 0.1s;
+                }
+            }
+            .login a,
+            .register a {
+                color: $Text;
+                text-decoration: none;
+            }
+        }
+
+        //White box container
+        .middle {
+            height: 70vh;
+            // border: 5px solid green;
+            display: grid;
+            justify-content: center;
+            margin-top: 10vh;
+
+            //White box
+            .text {
+                width: 45vw;
+                height: 100%;
+                color: #000;
+                border: 1px solid white;
+                padding: 5%;
+                border-radius: 15px;
+                background: $middle;
+                font-size: 130%;
+                font-family: $headingStyle;
+                //Inverted E
+                .era {
+                    transform: scale(-1, 1);
+                    display: inline-block;
+                }
+
+                //Eramessage
+                .erh {
+                    text-align: center;
+                    font-weight: 100;
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        display: block;
+                        width: 10vw;
+                        margin-top: 10px;
+                        border: 2px solid black;
+                        left: 44.8vw;
+                    }
+                }
+            }
+            // Envelop image
+            .envelop {
+                height: 35vh;
+                margin: 3vh auto;
+                text-align: center;
+
+                img {
+                    height: 100%;
+                    width: 20vw;
+                }
+            }
+
+            //Whitebox text
+            .para {
+                text-align: center;
+                line-height: 1.5em;
+
+                .linx {
+                    text-decoration: none;
+                    color: rgb(156, 154, 38);
+
+                    &:hover {
+                        color: rgb(196, 57, 22);
+                        transition: all 0.2s;
+                    }
+                }
+            }
+        }
+    }
