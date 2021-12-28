@@ -1,0 +1,10 @@
+$homeColor: lighten(rgb(51, 10, 197), 20);
+$homeColor2: lighten(rgb(255, 255, 255), 20);
+$headingStyle: sans-serif, Verdana;
+$Orange: lighten(orange, 30);
+$Text: complement($homeColor);
+$Text2: complement($homeColor2);
+$middle: lighten($Text2, 15);
+$mText: complement($middle);
+$blac: black;
+// $color: complement();
