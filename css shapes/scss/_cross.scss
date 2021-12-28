@@ -1,0 +1,108 @@
+//Animations
+//circle animation
+@keyframes reduce {
+    0%{
+        width: 200px;
+        height: 200px;
+    border-radius: 50%;
+    border: 100px solid red;
+    }
+
+    100%{
+        width: 200px;
+        height: 200px;
+    border-radius: 50%;
+    border: 10px solid red;
+    }
+}
+
+//Container for X
+.container-cross {
+    background-color: rgba(0, 0, 0, 0.393);
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    //white box
+    .box {
+        width: 30vw;
+        height: 45vh;
+        background-color: #fff;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+        .circle-container{
+            transform: scale(0.7);
+            animation: ticks 0.2s ease 1.5s;
+            margin-top: -15vh;
+            
+
+        .circle {
+        position: relative;
+    transition: all 0.2s;
+
+            animation-name: reduce;
+            animation-duration: 0.8s;
+            // padding: 100px;
+            width: 200px;
+            height: 200px;
+        border-radius: 50%;
+        border: 10px solid red;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+
+            .tick1{
+                width: 0px;
+                height: 10px;
+                background-color: red;
+                transform: rotate(225deg);
+                position: absolute;
+                left: 40px;
+            }
+            .tick2{
+                width: 0px;
+                height: 10px;
+                background-color: red;
+                transform: rotate(135deg);
+                position: absolute;
+                left: 40px;
+    
+            }
+        
+        }
+    }
+    }
+}
+
+  //Text
+  .text{
+    position: relative;
+  .typo{
+      position: absolute;
+      font-family: Verdana, sans-serif;
+      // border: 1px solid black;
+      font-size: 15px;
+      width: 29vw;
+      height: 10vh;
+      padding: 5px;
+      top: -42vh;
+      left: 36vw;
+      line-height: 1.5em;
+
+      a{
+          text-decoration: none;
+          color: rgb(216, 134, 19);
+          &:hover{
+          color: complement(rgb(216, 134, 19));
+              transition: all 0.2s;
+              cursor: pointer;
+          }
+      }
+      
+  }
+}
