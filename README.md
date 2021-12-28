@@ -1,2 +1,2 @@
 # tchito
-##School assignment to design a WhatsApp like wbesite.
+## School assignment to design a WhatsApp like wbesite.
