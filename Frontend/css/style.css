@@ -17,8 +17,8 @@
   font-family: sans-serif, Verdana;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 70px 90px;
-      grid-template-columns: 70px 90px;
+  -ms-grid-columns: 60px 60px 90px;
+      grid-template-columns: 60px 60px 90px;
   grid-gap: 2em;
   -webkit-box-pack: right;
       -ms-flex-pack: right;
@@ -33,21 +33,21 @@
 }
 
 .container .top .login,
-.container .top .register {
+.container .top .register, .container .top .home {
   font-size: 120%;
   padding-bottom: 5px;
   text-align: center;
 }
 
 .container .top .login:hover,
-.container .top .register:hover {
+.container .top .register:hover, .container .top .home:hover {
   border-bottom: 3px solid #ffdb99;
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
 }
 
 .container .top .login a,
-.container .top .register a {
+.container .top .register a, .container .top .home a {
   color: #cdf540;
   text-decoration: none;
 }
@@ -124,14 +124,14 @@
 
 @media screen and (min-width: 1300px) {
   .container .top {
-    -ms-grid-columns: 75vw 60px 90px;
-        grid-template-columns: 75vw 60px 90px;
+    -ms-grid-columns: 72vw 60px 60px 90px;
+        grid-template-columns: 72vw 60px 60px 90px;
     -webkit-box-pack: right;
         -ms-flex-pack: right;
             justify-content: right;
   }
   .container .top .login,
-  .container .top .register {
+  .container .top .register, .container .top .home {
     font-size: 125%;
     margin-top: 3vh;
   }
@@ -282,7 +282,7 @@
 
 @media screen and (max-width: 1300px) {
   .container .top .login,
-  .container .top .register {
+  .container .top .register, .container .top .home {
     font-size: 125%;
     margin-top: 3vh;
   }
@@ -311,7 +311,7 @@
 
 @media screen and (max-width: 1024px) {
   .container .top .login,
-  .container .top .register {
+  .container .top .register, .container .top .home {
     font-size: 125%;
     margin-top: 3vh;
   }
@@ -340,7 +340,7 @@
 
 @media screen and (max-width: 1024px) {
   .container .top .login,
-  .container .top .register {
+  .container .top .register, .container .top .home {
     font-size: 125%;
     margin-top: 3vh;
   }
@@ -369,7 +369,7 @@
 
 @media screen and (max-width: 992px) {
   .container .top .login,
-  .container .top .register {
+  .container .top .register, .container .top .home {
     font-size: 125%;
     margin-top: 3vh;
   }
@@ -398,7 +398,7 @@
 
 @media screen and (max-width: 768px) {
   .container .top .login,
-  .container .top .register {
+  .container .top .register, .container .top .home {
     font-size: 125%;
     margin-top: 3vh;
   }
@@ -427,7 +427,7 @@
 
 @media screen and (max-width: 620px) {
   .container .top .login,
-  .container .top .register {
+  .container .top .register, .container .top .home {
     font-size: 125%;
     margin-top: 3vh;
   }
@@ -456,7 +456,7 @@
 
 @media screen and (max-width: 575px) {
   .container .top .login,
-  .container .top .register {
+  .container .top .register, .container .top .home {
     font-size: 120%;
   }
   .container .middle {
@@ -485,7 +485,7 @@
 
 @media screen and (max-width: 480px) {
   .container .top .login,
-  .container .top .register {
+  .container .top .register, .container .top .home {
     font-size: 120%;
   }
   .container .middle {
@@ -513,7 +513,7 @@
 
 @media screen and (max-width: 400px) {
   .container .top .login,
-  .container .top .register {
+  .container .top .register, .container .top .home {
     font-size: 110%;
   }
   .container .middle {
@@ -541,7 +541,7 @@
 
 @media screen and (max-width: 320px) {
   .container .top .login,
-  .container .top .register {
+  .container .top .register, .container .top .home {
     font-size: 100%;
   }
   .container .middle {

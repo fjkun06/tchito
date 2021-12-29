@@ -1,0 +1,88 @@
+@keyframes loader2 {
+   0%,50%,85%,100%{
+       transform: scale(1);
+   }
+   
+    60%{
+        transform: scale(2);
+    }
+}
+
+%loader2{
+    .loader2{
+        width: 200px;
+        height: 150px;
+        
+        span{
+            width: 10px;
+            height: 70px;
+            position: absolute;
+            top: 0;
+            border-radius: 15px;
+            
+
+                    &:nth-child(1){
+                        left: 0;
+                        background-color: white;
+                        animation: loader2 2s ease 3;
+                        box-shadow: 0 0 20px #000;
+                    }
+        
+                    &:nth-child(2){
+                        left: 25px;
+                        background-color: white;
+                        animation: loader2 2s ease 3 0.15s;
+                        box-shadow: 0 0 20px #000;
+
+
+                    }
+        
+                    &:nth-child(3){
+                        left: 50px;
+                        background-color: white;
+                        animation: loader2 2s ease 3 0.3s;
+                        box-shadow: 0 0 20px #000;
+
+                    }
+        
+                    &:nth-child(4){
+                        left: 75px;
+                        background-color: white;
+                        animation: loader2 2s ease 3 0.45s;
+                        box-shadow: 0 0 20px #000;
+                    }
+        
+                    &:nth-child(5){
+                        left: 100px;
+                        background-color: white;
+                        animation: loader2 2s ease 3 0.6s;
+                        box-shadow: 0 0 20px #000;
+
+                    }
+        
+                    &:nth-child(6){
+                        left: 125px;
+                        background-color: white;
+                        animation: loader2 2s ease 3 0.75s;
+                        box-shadow: 0 0 20px #000;
+
+                    }
+        
+                    &:nth-child(7){
+                        left: 150px;
+                        background-color: white;
+                        animation: loader2 2s ease 3 0.9s;
+                        box-shadow: 0 0 20px #000;
+
+                    }
+        
+                    &:nth-child(8){
+                        left: 175px;
+                        background-color: white;
+                        animation: loader2 2s ease 3 1.02s;
+                        box-shadow: 0 0 20px #000;
+
+                    }
+                }
+            }
+        }

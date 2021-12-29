@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../login/scss/common/minxi.scss"
+        "../register/scss/common/minxi.scss"
     ],
     "names": [],
     "file": "minxi.css"

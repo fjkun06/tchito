@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../login/scss/common/variables.scss"
+        "../register/scss/common/variables.scss"
     ],
     "names": [],
     "file": "variables.css"

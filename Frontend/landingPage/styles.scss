@@ -1,0 +1,86 @@
+@import 'loader2';
+@keyframes fade{
+    50%{
+        opacity: 1;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+
+.whole{
+    height: 100vh;
+    background: #000;
+    overflow-y: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+
+    p{
+        color: aliceblue;
+        font-size: 3em;
+        font-family: sans-serif;
+    }
+
+    .parent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        width: 33%;
+        
+        p{
+            font-size: 2em;
+
+            a{
+                color: aliceblue;
+                text-decoration: none;
+                display: none;
+                opacity: 0;
+                animation: fade 1.5s ease 6;
+                &:hover{
+                    cursor:text;
+                }
+            }
+        }
+
+        .show{
+            display: block;
+        }
+    
+        .loader{
+            position: relative;
+        }
+
+        @extend %loader2; 
+        
+        .play{
+            .loader2{
+                span{
+                    &:nth-child(odd){
+                        animation-play-state: paused;
+                    }
+                    &:nth-child(even){
+                        animation-play-state: paused;
+                    }
+                }
+            }
+        }
+       
+    }
+
+    button{
+        font-size: 2em;
+        padding: 0.3em 1em;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

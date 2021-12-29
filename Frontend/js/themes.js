@@ -4,6 +4,7 @@ const black = document.querySelector(".black");
 const reset = document.querySelector(".default");
 const login = document.querySelector("#log");
 const register = document.querySelector("#reg");
+const home = document.querySelector("#hom");
 const cover = document.querySelector(".container");
 
 // cover.style.backgroundColor = "";
@@ -15,7 +16,7 @@ defSpan.textContent = "Currently selected";
 black.addEventListener("click", () => {
   if (cover.style.backgroundColor == "") {
     cover.style.backgroundColor = "rgba(0,0,0,0.75)"; ///main skin
-    login.style.color = register.style.color = `white`;
+    login.style.color = register.style.color = home.style.color = `white`;
     console.log("Hello black");
     blacSpan.textContent = "Currently selected";
     defSpan.textContent = "Switch to default";
@@ -25,7 +26,7 @@ black.addEventListener("click", () => {
 reset.addEventListener("click", () => {
   if (cover.style.backgroundColor != "") {
     cover.style.backgroundColor = ""; ///main skin
-    login.style.color = register.style.color = ``;
+    login.style.color = register.style.color = home.style.color = ``;
     console.log("Hello def");
     defSpan.textContent = "Currently selected";
     blacSpan.textContent = "Switch to gray theme";

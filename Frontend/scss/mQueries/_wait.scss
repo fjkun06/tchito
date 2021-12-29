@@ -18,7 +18,7 @@
             color: $Text;
             font-family: $headingStyle;
             display: grid;
-            grid-template-columns: 70px 90px;
+            grid-template-columns: 60px 60px 90px;
             grid-gap: 2em;
             justify-content: right;
             padding-top: 1em;
@@ -31,7 +31,7 @@
 
             //Login and register props
             .login,
-            .register {
+            .register,.home {
                 font-size: 120%;
                 padding-bottom: 5px;
                 text-align: center;
@@ -42,7 +42,7 @@
                 }
             }
             .login a,
-            .register a {
+            .register a , .home a{
                 color: $Text;
                 text-decoration: none;
             }
