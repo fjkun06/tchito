@@ -1,0 +1,128 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f5f6f7;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 7vh 86vh 7vh;
+      grid-template-rows: 7vh 86vh 7vh;
+  -ms-grid-columns: 100vw;
+      grid-template-columns: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #f5f6f7e3;
+  font-family: Verdana, sans-serif;
+}
+
+.container .nav {
+  background: #002244;
+  padding-top: 5px;
+}
+
+.container .nav .navbar {
+  height: 100%;
+  width: 80%;
+  margin-left: 10%;
+  background: #002244;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 16vw 38vw 20vw;
+      grid-template-columns: 16vw 38vw 20vw;
+  grid-gap: 2vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .nav .navbar img {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+  margin-top: -7px;
+}
+
+.container .nav .navbar img,
+.container .nav .navbar .empty,
+.container .nav .navbar .person {
+  height: 100%;
+  text-align: center;
+}
+
+.container .nav .navbar .person {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 80% 20%;
+      grid-template-columns: 80% 20%;
+}
+
+.container .nav .navbar .name {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .nav .navbar .name .text {
+  font-size: 135%;
+  font-weight: 50;
+  padding-bottom: 5px;
+}
+
+.container .nav .navbar .settings {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .nav .navbar .settings img {
+  width: 55px;
+  height: 55px;
+  background: #fff;
+  border-radius: 100%;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.container .nav .navbar .settings img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
+}
+
+.container .content .middle {
+  border: 3px solid #a51a1a;
+  height: 100%;
+  color: midnightblue;
+  font-size: 200%;
+  background-color: yellow;
+}
+
+.container .footer {
+  background: #002244;
+}
+
+.container .footer .end {
+  border: 3px solid #a51a1a;
+  height: 100%;
+  width: 80%;
+  margin-left: 10%;
+  background: #002244;
+}
+/*# sourceMappingURL=style.css.map */

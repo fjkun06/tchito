@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f5f6f7;
+    display: grid;
+    grid-template-rows: 7vh 86vh 7vh;
+    grid-template-columns: 100vw;
+    justify-content: center;
+    // border: 5px solid navy;
+    color: #f5f6f7e3;
+    font-family: Verdana, sans-serif;
+
+    //Navbar
+    .nav {
+        // border: 2px solid white;
+        background: #002244;
+        padding-top: 5px;
+
+        .navbar {
+            // border: 3px solid rgb(165, 26, 26);
+            height: 100%;
+            width: 80%;
+            margin-left: 10%;
+            background: #002244;
+            display: grid;
+            grid-template-columns: 16vw 38vw 20vw;
+            grid-gap: 2vw;
+            align-items: center;
+            //logo
+            img {
+                transform: scale(0.7);
+                margin-top: -7px;
+                // border: 1px solid white;
+            }
+
+            //all nav
+            img,
+            .empty,
+            .person {
+                // border: 1px solid white;
+                height: 100%;
+                text-align: center;
+            }
+
+            //person
+            .person {
+                display: grid;
+                grid-template-columns: 80% 20%;
+            }
+
+            //name
+            .name {
+                display: grid;
+                justify-content: end;
+                align-items: center;
+                .text{
+                    font-size: 135%;
+                    font-weight: 50;
+                    padding-bottom: 5px;
+                }
+            }
+
+            //icon profile
+            .settings {
+                display: grid;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    // margin-left: 10px;
+                    width: 55px;
+                    height: 55px;
+                    background: #fff;
+                    // margin-top: 5px;
+                    border-radius: 100%;
+                    transition: all .2s ease;
+
+                    &:hover{
+                        cursor: pointer;
+                        transform: scale(0.85);
+                    }
+                    
+                }
+            }
+        }
+    }
+
+    //Content
+    .content {
+
+        .middle {
+            border: 3px solid rgb(165, 26, 26);
+            height: 100%;
+            color: midnightblue;
+            font-size: 200%;
+            background-color: yellow;
+        }
+    }
+
+    //footer
+    .footer {
+        // background: midnightblue;
+        background: #002244;
+
+        .end {
+            border: 3px solid rgb(165, 26, 26);
+            height: 100%;
+            width: 80%;
+            margin-left: 10%;
+            // background: lighten(rgba(2, 1, 38, 0.96), 10);
+            background: #002244;
+        }
+    }
+}
