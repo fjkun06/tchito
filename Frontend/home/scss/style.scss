@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 //included files
 @import "variable";
 
 //general settings
-=======
->>>>>>> 093c7942464f8ccee074f3f9c5d930a3b4c08f3a
 * {
     box-sizing: border-box;
     padding: 0;
@@ -12,7 +9,6 @@
     font-size: 18px;
 }
 
-<<<<<<< HEAD
 .icon::before {
     display: inline-block;
     font-style: normal;
@@ -21,8 +17,6 @@
     -webkit-font-smoothing: antialiased;
 }
 
-=======
->>>>>>> 093c7942464f8ccee074f3f9c5d930a3b4c08f3a
 .container {
     width: 100vw;
     height: 100vh;
@@ -32,21 +26,13 @@
     grid-template-columns: 100vw;
     justify-content: center;
     // border: 5px solid navy;
-<<<<<<< HEAD
     color: $text;
-=======
-    color: #f5f6f7e3;
->>>>>>> 093c7942464f8ccee074f3f9c5d930a3b4c08f3a
     font-family: Verdana, sans-serif;
 
     //Navbar
     .nav {
         // border: 2px solid white;
-<<<<<<< HEAD
         background: $myDark;
-=======
-        background: #002244;
->>>>>>> 093c7942464f8ccee074f3f9c5d930a3b4c08f3a
         padding-top: 5px;
 
         .navbar {
@@ -86,16 +72,11 @@
                 display: grid;
                 justify-content: end;
                 align-items: center;
-<<<<<<< HEAD
-                .text {
-=======
                 .text{
->>>>>>> 093c7942464f8ccee074f3f9c5d930a3b4c08f3a
                     font-size: 135%;
                     font-weight: 50;
                     padding-bottom: 5px;
                 }
-            }
 
             //icon profile
             .settings {
@@ -110,7 +91,6 @@
                     background: #fff;
                     // margin-top: 5px;
                     border-radius: 100%;
-<<<<<<< HEAD
                     transition: all 0.2s ease;
 
                     &:hover {
@@ -178,15 +158,7 @@
                             }
                         }
                     }
-=======
-                    transition: all .2s ease;
 
-                    &:hover{
-                        cursor: pointer;
-                        transform: scale(0.85);
-                    }
-                    
->>>>>>> 093c7942464f8ccee074f3f9c5d930a3b4c08f3a
                 }
             }
         }
@@ -194,17 +166,13 @@
 
     //Content
     .content {
-<<<<<<< HEAD
-=======
 
->>>>>>> 093c7942464f8ccee074f3f9c5d930a3b4c08f3a
         .middle {
             border: 3px solid rgb(165, 26, 26);
             height: 100%;
             color: midnightblue;
             font-size: 200%;
             background-color: yellow;
-<<<<<<< HEAD
             position: relative;
             z-index: 1;
 
@@ -222,32 +190,23 @@
             //         display: block;
             //     }
             // }
-=======
->>>>>>> 093c7942464f8ccee074f3f9c5d930a3b4c08f3a
         }
     }
 
     //footer
     .footer {
         // background: midnightblue;
-<<<<<<< HEAD
         background: $myDark;
-=======
-        background: #002244;
->>>>>>> 093c7942464f8ccee074f3f9c5d930a3b4c08f3a
+
 
         .end {
             border: 3px solid rgb(165, 26, 26);
             height: 100%;
             width: 80%;
             margin-left: 10%;
-<<<<<<< HEAD
             // background: lighten(rgba(,11, 38, 0.96), 10);
             background: $myDark;
-=======
-            // background: lighten(rgba(2, 1, 38, 0.96), 10);
-            background: #002244;
->>>>>>> 093c7942464f8ccee074f3f9c5d930a3b4c08f3a
+
         }
     }
 }
