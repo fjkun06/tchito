@@ -1,0 +1,215 @@
+@-webkit-keyframes loader2 {
+  0%, 50%, 85%, 100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  60% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+}
+
+@keyframes loader2 {
+  0%, 50%, 85%, 100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  60% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+}
+
+.whole .parent .loader2 {
+  width: 200px;
+  height: 150px;
+}
+
+.whole .parent .loader2 span {
+  width: 10px;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  border-radius: 15px;
+}
+
+.whole .parent .loader2 span:nth-child(1) {
+  left: 0;
+  background-color: white;
+  -webkit-animation: loader2 2s ease 3;
+          animation: loader2 2s ease 3;
+  -webkit-box-shadow: 0 0 20px #000;
+          box-shadow: 0 0 20px #000;
+}
+
+.whole .parent .loader2 span:nth-child(2) {
+  left: 25px;
+  background-color: white;
+  -webkit-animation: loader2 2s ease 3 0.15s;
+          animation: loader2 2s ease 3 0.15s;
+  -webkit-box-shadow: 0 0 20px #000;
+          box-shadow: 0 0 20px #000;
+}
+
+.whole .parent .loader2 span:nth-child(3) {
+  left: 50px;
+  background-color: white;
+  -webkit-animation: loader2 2s ease 3 0.3s;
+          animation: loader2 2s ease 3 0.3s;
+  -webkit-box-shadow: 0 0 20px #000;
+          box-shadow: 0 0 20px #000;
+}
+
+.whole .parent .loader2 span:nth-child(4) {
+  left: 75px;
+  background-color: white;
+  -webkit-animation: loader2 2s ease 3 0.45s;
+          animation: loader2 2s ease 3 0.45s;
+  -webkit-box-shadow: 0 0 20px #000;
+          box-shadow: 0 0 20px #000;
+}
+
+.whole .parent .loader2 span:nth-child(5) {
+  left: 100px;
+  background-color: white;
+  -webkit-animation: loader2 2s ease 3 0.6s;
+          animation: loader2 2s ease 3 0.6s;
+  -webkit-box-shadow: 0 0 20px #000;
+          box-shadow: 0 0 20px #000;
+}
+
+.whole .parent .loader2 span:nth-child(6) {
+  left: 125px;
+  background-color: white;
+  -webkit-animation: loader2 2s ease 3 0.75s;
+          animation: loader2 2s ease 3 0.75s;
+  -webkit-box-shadow: 0 0 20px #000;
+          box-shadow: 0 0 20px #000;
+}
+
+.whole .parent .loader2 span:nth-child(7) {
+  left: 150px;
+  background-color: white;
+  -webkit-animation: loader2 2s ease 3 0.9s;
+          animation: loader2 2s ease 3 0.9s;
+  -webkit-box-shadow: 0 0 20px #000;
+          box-shadow: 0 0 20px #000;
+}
+
+.whole .parent .loader2 span:nth-child(8) {
+  left: 175px;
+  background-color: white;
+  -webkit-animation: loader2 2s ease 3 1.02s;
+          animation: loader2 2s ease 3 1.02s;
+  -webkit-box-shadow: 0 0 20px #000;
+          box-shadow: 0 0 20px #000;
+}
+
+@-webkit-keyframes fade {
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  50% {
+    opacity: 1;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.whole {
+  height: 100vh;
+  background: #000;
+  overflow-y: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.whole p {
+  color: aliceblue;
+  font-size: 3em;
+  font-family: sans-serif;
+}
+
+.whole .parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 300px;
+  width: 33%;
+}
+
+.whole .parent p {
+  font-size: 2em;
+}
+
+.whole .parent p a {
+  color: aliceblue;
+  text-decoration: none;
+  display: none;
+  opacity: 0;
+  -webkit-animation: fade 1.5s ease 6;
+          animation: fade 1.5s ease 6;
+}
+
+.whole .parent p a:hover {
+  cursor: text;
+}
+
+.whole .parent .show {
+  display: block;
+}
+
+.whole .parent .loader {
+  position: relative;
+}
+
+.whole .parent .play .loader2 span:nth-child(odd) {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+.whole .parent .play .loader2 span:nth-child(even) {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+.whole button {
+  font-size: 2em;
+  padding: 0.3em 1em;
+}
+
+.whole button:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */
