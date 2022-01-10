@@ -1,0 +1,223 @@
+// background: url('../img/bg/diagonalnoise.png');
+// background-color: rgba(248, 247, 216, 0.7);
+@import "../variable";
+//Content
+
+.content {
+    // background-image: url('images/neuera.jpg');
+
+    background-image: url("../images/newera.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    position: relative;
+    // .background {
+    //     background-image:url(images/neuera.jpg);
+    //     position: relative;
+    // }
+
+    .middle {
+        // border: 3px solid rgb(165, 26, 26);
+        height: 100%;
+        color: $myDark;
+        font-size: 200%;
+        position: relative;
+
+        background-color: rgba(238, 240, 241, 0.5);
+
+        // position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        //whole icon pop up box
+        .new-chat{
+            position: relative;
+            
+        }
+        .middle-menu {
+            font-family: sans-serif;
+            width: 440px;
+            height: 250px;
+            // border: 1px solid black;
+            position: absolute;
+            left: 1100px;
+            top: 50px;
+            // display: none;
+
+            // new chat icon
+            .newchat-icon {
+                .triangle2{
+                    left: 53px;
+                    top: 17px;
+                    background-color: darkgrey;
+                    // display: none;
+                }
+
+                .new{
+                    padding: 10px;
+                    color: $myDark;
+                    background-color: darkgrey;
+                    position: absolute;
+                    top: 7px;
+                    left: 70px;
+                    width: 170px;
+                    border-radius: 2px;
+                    // display: none;
+                }
+
+                .one-icon{
+                    // &:hover{
+                    //     .new, .triangle2{
+                    //         display: none;
+                    // transition: all 0.2s ease;
+
+                    //     }
+                    // }
+
+                    i {
+                        transition: all 0.15s ease;
+                        position: absolute;
+                        top: 110px;
+                        left: -90px;
+                        color: darkgrey;
+
+
+                        &:hover {
+                            // transform: scale(1.05);
+                            cursor: pointer;
+                        color: $myDark;
+
+                        }
+                    }
+                }
+              
+                //triangles
+                .triangle1, .triangle2{
+                    width: 20px;
+                    height: 20px;
+                    clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+                    position: absolute;
+
+                }
+
+                .triangle1{
+                    left: -40px;
+                    top: 127px;
+                    background-color: $myDark;
+                    display: none;
+                }
+
+                .triangle3{
+                    position: absolute;
+                    left: 390px;
+                    top: 37px;
+                    color: $text;
+                    background-color: $myDark;
+                    border-radius: 50%;
+                    width: 18px;
+                    text-align: center;
+                    height: 18px;
+                    font-size: 12px;
+                    padding-top: 3px;
+
+                    &:hover{
+                        transform: scale(1.1);
+                        cursor: pointer;
+                        color: red;
+                    }
+                    display: none;
+                }
+
+                
+            }
+
+            //popup options
+            .middle-options {
+                position: absolute;
+                left: -20px;
+                top: 60px;  //50
+                // border: 1px solid red;
+                display: grid;
+                height: 70%;
+                width: 95%;
+
+                //options
+                .option1,
+                .option2,
+                .option3 {
+                    padding: 7px;
+                    padding-top: 13px;
+                    // border: 1px solid black;
+                    text-align: left;
+                    padding-bottom: 13px;
+                    
+                    display: grid;
+                    grid-template-columns: 8% 92%;
+                    cursor: pointer;
+                    background-color: $myDark;
+                    color: $text;
+
+                    &:hover {
+                        background-color: lighten($myDark, 20);
+                    }
+                }
+
+                display: none;
+
+                // hover icons
+                .option1 {
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+
+                    &:hover {
+                        .o-icon {
+                            color: rgb(255, 174, 0);
+                        }
+                    }
+                }
+
+                .option2 {
+                    &:hover {
+                        .t-icon {
+                            color: palevioletred;
+                        }
+                    }
+                }
+
+                .option3 {
+                    border-bottom-left-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                    &:hover {
+                        .th-icon {
+                            color: turquoise;
+                        }
+                    }
+                }
+                
+            }
+        }
+
+        // z-index: 1;
+        // display: none;
+        // background: url('images/neuera.jpg');
+        // background-color: rgba(248, 247, 216, 0.1);
+
+        // .try{
+        //     position: absolute;
+        //     height: 50px;
+        //     width: 50px;
+
+        //     &::after{
+        //         content: "\f102";
+        //         position: absolute;
+        //         font-family: "Font Awesome 5 Free";
+        //         font-weight: 900;
+        //         color: red;
+        //         display: block;
+        //     }
+        // }
+    }
+}

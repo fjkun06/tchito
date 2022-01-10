@@ -1,0 +1,1815 @@
+@media screen and (max-width: 1600px) {
+    * {
+        font-size: 17px;
+    }
+      
+        .nav {
+                
+        
+            .navbar {
+                 // border: 3px solid rgb(165, 26, 26);
+                 height: 100%;
+                 // width: 100%;
+                 margin: 0%;
+                 margin-left: 4%;
+                 margin-top: -1.5%;
+                 // background: #002244;
+                 // display: grid;
+                 grid-template-columns: 40vw 10vw 28vw;
+                 // grid-gap: 2vw;
+                 align-items: center;
+                // //logo
+                img {
+                    transform: scale(0.4);
+                    // margin-top: -7px;
+                    // border: 1px solid white;
+                }
+        
+                //all nav
+                img,
+                .empty,
+                .person {
+                    // border: 1px solid white;
+                    // height: 100%;
+                    // text-align: center;
+                }
+        
+                //person
+                .person {
+                    // display: grid;
+                    grid-template-columns: 70% 30%;
+                }
+        
+                //name
+                .name {
+                    // display: grid;
+                    // justify-content: end;
+                    // align-items: center;
+                    // .text {
+                    //     font-size: 135%;
+                    //     font-weight: 50;
+                    //     // padding-bottom: 15px;
+                    // }
+                }
+                //icon profile
+                .settings {
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    img {
+                        // position: absolute;
+                        // margin-left: 5px;
+                        width: 95px;
+                        height: 95px;
+                        // left: 50px;
+                        // top: 15px;
+                        // margin-top: -15px;
+                        // align-items: flex-end;
+                        // border-radius: 100%;
+                        // transition: all 0.2s ease;
+        
+                        &:hover {
+                            // cursor: pointer;
+                            transform: scale(0.5);
+                        }
+                    }
+        
+                    //hover icon
+        
+                    .log {
+                        position: relative;
+                        .icon {
+                            // color: powderblue;
+                            // position: absolute;
+                            top: -41.5px;
+                            left: 63.5px;
+                            // display: block;
+        
+                            //hover icon options
+                            .options {
+                                // background-color: $myDark;
+                                width: 210px;
+                                height: 160px;
+                                // display: grid;
+                                // grid-gap: 1em;
+                                // text-align: left;
+                                left: -35px;
+                                // color: $text;
+                                // border-radius: 2%;
+                                // z-index: 5;
+                                // position: absolute;
+                                // display: none;
+        
+                                // .one,
+                                // .two,
+                                // .three {
+                                //     padding-top: 10px;
+                                //     padding-left: 10px;
+                                //     width: 100%;
+                                //     height: 90%;
+                                //     transition: all 0.2s;
+                                //     display: grid;
+                                //     grid-template-columns: 18% 82%;
+                                //     z-index: 5;
+        
+                                //     &:hover {
+                                //         background-color: lighten($myDark, 20);
+                                //         cursor: pointer;
+                                //     }
+                                // }
+        
+                                // .one {
+                                //     &:hover {
+                                //         .one-icon {
+                                //             color: rgb(251, 255, 0);
+                                //         }
+                                //     }
+                                // }
+        
+                                // .two {
+                                //     &:hover {
+                                //         .two-icon {
+                                //             color: paleturquoise;
+                                //         }
+                                //     }
+                                // }
+        
+                                // .three {
+                                //     &:hover {
+                                //         .three-icon {
+                                //             color: red;
+                                //         }
+                                //     }
+                                // }
+                            }
+        
+                            // i {
+                            //     &:hover {
+                            //         cursor: pointer;
+                            //         transform: scale(1.15);
+                            //     }
+                            // }
+        
+                            // &:hover {
+                            //     .options {
+                            //         display: grid;
+                            //     }
+                            // }
+                        }
+                    }
+                }
+            }
+        }
+}
+
+@media screen and (max-width: 1300px) {
+    * {
+        font-size: 17px;
+    }
+      
+        .nav {
+                
+        
+            .navbar {
+                 // border: 3px solid rgb(165, 26, 26);
+                 height: 100%;
+                 // width: 100%;
+                 margin: 0%;
+                 margin-left: 4%;
+                 margin-top: -1.7%;
+                 // background: #002244;
+                 // display: grid;
+                 grid-template-columns: 40vw 10vw 28vw;
+                 // grid-gap: 2vw;
+                 align-items: center;
+                // //logo
+                img {
+                    transform: scale(0.4);
+                    // margin-top: -7px;
+                    // border: 1px solid white;
+                }
+        
+                //all nav
+                img,
+                .empty,
+                .person {
+                    // border: 1px solid white;
+                    // height: 100%;
+                    // text-align: center;
+                }
+        
+                //person
+                .person {
+                    // display: grid;
+                    grid-template-columns: 70% 30%;
+                }
+        
+                //name
+                .name {
+                    // display: grid;
+                    // justify-content: end;
+                    // align-items: center;
+                    // .text {
+                    //     font-size: 135%;
+                    //     font-weight: 50;
+                    //     // padding-bottom: 15px;
+                    // }
+                }
+                //icon profile
+                .settings {
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    img {
+                        // position: absolute;
+                        // margin-left: 5px;
+                        width: 95px;
+                        height: 95px;
+                        // left: 50px;
+                        // top: 15px;
+                        // margin-top: -15px;
+                        // align-items: flex-end;
+                        // border-radius: 100%;
+                        // transition: all 0.2s ease;
+        
+                        &:hover {
+                            // cursor: pointer;
+                            transform: scale(0.5);
+                        }
+                    }
+        
+                    //hover icon
+        
+                    .log {
+                        position: relative;
+                        .icon {
+                            // color: powderblue;
+                            // position: absolute;
+                            top: -41.5px;
+                            left: 63.5px;
+                            // display: block;
+        
+                            //hover icon options
+                            .options {
+                                // background-color: $myDark;
+                                width: 210px;
+                                height: 160px;
+                                // display: grid;
+                                // grid-gap: 1em;
+                                // text-align: left;
+                                left: -35px;
+                                // color: $text;
+                                // border-radius: 2%;
+                                // z-index: 5;
+                                // position: absolute;
+                                // display: none;
+        
+                                // .one,
+                                // .two,
+                                // .three {
+                                //     padding-top: 10px;
+                                //     padding-left: 10px;
+                                //     width: 100%;
+                                //     height: 90%;
+                                //     transition: all 0.2s;
+                                //     display: grid;
+                                //     grid-template-columns: 18% 82%;
+                                //     z-index: 5;
+        
+                                //     &:hover {
+                                //         background-color: lighten($myDark, 20);
+                                //         cursor: pointer;
+                                //     }
+                                // }
+        
+                                // .one {
+                                //     &:hover {
+                                //         .one-icon {
+                                //             color: rgb(251, 255, 0);
+                                //         }
+                                //     }
+                                // }
+        
+                                // .two {
+                                //     &:hover {
+                                //         .two-icon {
+                                //             color: paleturquoise;
+                                //         }
+                                //     }
+                                // }
+        
+                                // .three {
+                                //     &:hover {
+                                //         .three-icon {
+                                //             color: red;
+                                //         }
+                                //     }
+                                // }
+                            }
+        
+                            // i {
+                            //     &:hover {
+                            //         cursor: pointer;
+                            //         transform: scale(1.15);
+                            //     }
+                            // }
+        
+                            // &:hover {
+                            //     .options {
+                            //         display: grid;
+                            //     }
+                            // }
+                        }
+                    }
+                }
+            }
+        }
+}
+
+//end 1200px
+@media screen and (max-width: 1200px) {
+    * {
+        font-size: 16px;
+    }
+      
+        .nav {
+                
+        
+            .navbar {
+                 // border: 3px solid rgb(165, 26, 26);
+                 height: 100%;
+                 // width: 100%;
+                 margin: 0%;
+                 margin-left: 4%;
+                 margin-top: -1.7%;
+                 // background: #002244;
+                 // display: grid;
+                 grid-template-columns: 40vw 10vw 28vw;
+                 // grid-gap: 2vw;
+                 align-items: center;
+                // //logo
+                img {
+                    transform: scale(0.4);
+                    // margin-top: -7px;
+                    // border: 1px solid white;
+                }
+        
+                //all nav
+                img,
+                .empty,
+                .person {
+                    // border: 1px solid white;
+                    // height: 100%;
+                    // text-align: center;
+                }
+        
+                //person
+                .person {
+                    // display: grid;
+                    grid-template-columns: 70% 30%;
+                }
+        
+                //name
+                .name {
+                    // display: grid;
+                    // justify-content: end;
+                    // align-items: center;
+                    // .text {
+                    //     font-size: 135%;
+                    //     font-weight: 50;
+                    //     // padding-bottom: 15px;
+                    // }
+                }
+                //icon profile
+                .settings {
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    img {
+                        // position: absolute;
+                        // margin-left: 5px;
+                        width: 95px;
+                        height: 95px;
+                        // left: 50px;
+                        // top: 15px;
+                        // margin-top: -15px;
+                        // align-items: flex-end;
+                        // border-radius: 100%;
+                        // transition: all 0.2s ease;
+        
+                        &:hover {
+                            // cursor: pointer;
+                            transform: scale(0.5);
+                        }
+                    }
+        
+                    //hover icon
+        
+                    .log {
+                        position: relative;
+                        .icon {
+                            // color: powderblue;
+                            // position: absolute;
+                            top: -41.5px;
+                            left: 63.5px;
+                            // display: block;
+        
+                            //hover icon options
+                            .options {
+                                // background-color: $myDark;
+                                width: 200px;
+                                height: 150px;
+                                // display: grid;
+                                // grid-gap: 1em;
+                                // text-align: left;
+                                left: -35px;
+                                // color: $text;
+                                // border-radius: 2%;
+                                // z-index: 5;
+                                // position: absolute;
+                                // display: none;
+        
+                                // .one,
+                                // .two,
+                                // .three {
+                                //     padding-top: 10px;
+                                //     padding-left: 10px;
+                                //     width: 100%;
+                                //     height: 90%;
+                                //     transition: all 0.2s;
+                                //     display: grid;
+                                //     grid-template-columns: 18% 82%;
+                                //     z-index: 5;
+        
+                                //     &:hover {
+                                //         background-color: lighten($myDark, 20);
+                                //         cursor: pointer;
+                                //     }
+                                // }
+        
+                                // .one {
+                                //     &:hover {
+                                //         .one-icon {
+                                //             color: rgb(251, 255, 0);
+                                //         }
+                                //     }
+                                // }
+        
+                                // .two {
+                                //     &:hover {
+                                //         .two-icon {
+                                //             color: paleturquoise;
+                                //         }
+                                //     }
+                                // }
+        
+                                // .three {
+                                //     &:hover {
+                                //         .three-icon {
+                                //             color: red;
+                                //         }
+                                //     }
+                                // }
+                            }
+        
+                            // i {
+                            //     &:hover {
+                            //         cursor: pointer;
+                            //         transform: scale(1.15);
+                            //     }
+                            // }
+        
+                            // &:hover {
+                            //     .options {
+                            //         display: grid;
+                            //     }
+                            // }
+                        }
+                    }
+                }
+            }
+        }
+}
+
+@media screen and (min-width: 1024px) {
+  
+}
+
+//end 1200px
+@media screen and (max-width: 1024px) {
+
+          //      //general settings
+* {
+    font-size: 15px;
+}
+  
+    .nav {
+            
+    
+        .navbar {
+             // border: 3px solid rgb(165, 26, 26);
+             height: 100%;
+             // width: 100%;
+             margin: 0%;
+             margin-left: -2%;
+             margin-top: -1.9%;
+             // background: #002244;
+             // display: grid;
+             grid-template-columns: 50vw 10vw 28vw;
+             // grid-gap: 2vw;
+             align-items: center;
+            // //logo
+            img {
+                transform: scale(0.4);
+                // margin-top: -7px;
+                // border: 1px solid white;
+            }
+    
+            //all nav
+            img,
+            .empty,
+            .person {
+                // border: 1px solid white;
+                // height: 100%;
+                // text-align: center;
+            }
+    
+            //person
+            .person {
+                // display: grid;
+                grid-template-columns: 70% 30%;
+            }
+    
+            //name
+            .name {
+                // display: grid;
+                // justify-content: end;
+                // align-items: center;
+                // .text {
+                //     font-size: 135%;
+                //     font-weight: 50;
+                //     // padding-bottom: 15px;
+                // }
+            }
+            //icon profile
+            .settings {
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                
+                img {
+                    // position: absolute;
+                    // margin-left: 5px;
+                    width: 95px;
+                    height: 95px;
+                    // left: 50px;
+                    // top: 15px;
+                    // margin-top: -15px;
+                    // align-items: flex-end;
+                    // border-radius: 100%;
+                    // transition: all 0.2s ease;
+    
+                    &:hover {
+                        // cursor: pointer;
+                        transform: scale(0.5);
+                    }
+                }
+    
+                //hover icon
+    
+                .log {
+                    position: relative;
+                    .icon {
+                        // color: powderblue;
+                        // position: absolute;
+                        top: -41.5px;
+                        left: 63.5px;
+                        // display: block;
+    
+                        //hover icon options
+                        .options {
+                            // background-color: $myDark;
+                            width: 180px;
+                            height: 130px;
+                            // display: grid;
+                            // grid-gap: 1em;
+                            // text-align: left;
+                            left: -65px;
+                            // color: $text;
+                            // border-radius: 2%;
+                            // z-index: 5;
+                            // position: absolute;
+                            // display: none;
+    
+                            // .one,
+                            // .two,
+                            // .three {
+                            //     padding-top: 10px;
+                            //     padding-left: 10px;
+                            //     width: 100%;
+                            //     height: 90%;
+                            //     transition: all 0.2s;
+                            //     display: grid;
+                            //     grid-template-columns: 18% 82%;
+                            //     z-index: 5;
+    
+                            //     &:hover {
+                            //         background-color: lighten($myDark, 20);
+                            //         cursor: pointer;
+                            //     }
+                            // }
+    
+                            // .one {
+                            //     &:hover {
+                            //         .one-icon {
+                            //             color: rgb(251, 255, 0);
+                            //         }
+                            //     }
+                            // }
+    
+                            // .two {
+                            //     &:hover {
+                            //         .two-icon {
+                            //             color: paleturquoise;
+                            //         }
+                            //     }
+                            // }
+    
+                            // .three {
+                            //     &:hover {
+                            //         .three-icon {
+                            //             color: red;
+                            //         }
+                            //     }
+                            // }
+                        }
+    
+                        // i {
+                        //     &:hover {
+                        //         cursor: pointer;
+                        //         transform: scale(1.15);
+                        //     }
+                        // }
+    
+                        // &:hover {
+                        //     .options {
+                        //         display: grid;
+                        //     }
+                        // }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//end 1024px
+@media screen and (max-width: 992px) {
+      //      //general settings
+* {
+    font-size: 14px;
+}
+  
+    .nav {
+    
+        .navbar {
+            // border: 3px solid rgb(165, 26, 26);
+            height: 100%;
+            // width: 100%;
+            margin-left: -7%;
+            margin-top: -2%;
+            // background: #002244;
+            // display: grid;
+            grid-template-columns: 50vw 16vw 28vw;
+            // grid-gap: 2vw;
+            align-items: center;
+            // //logo
+            img {
+                transform: scale(0.4);
+                // margin-top: -7px;
+                // border: 1px solid white;
+            }
+    
+            //all nav
+            img,
+            .empty,
+            .person {
+                // border: 1px solid white;
+                // height: 100%;
+                // text-align: center;
+            }
+    
+            //person
+            .person {
+                // display: grid;
+                grid-template-columns: 70% 30%;
+            }
+    
+            //name
+            .name {
+                // display: grid;
+                // justify-content: end;
+                // align-items: center;
+                // .text {
+                //     font-size: 135%;
+                //     font-weight: 50;
+                //     // padding-bottom: 15px;
+                // }
+            }
+            //icon profile
+            .settings {
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                
+                img {
+                    // position: absolute;
+                    // margin-left: 5px;
+                    width: 95px;
+                    height: 95px;
+                    // left: 50px;
+                    // top: 15px;
+                    // margin-top: -15px;
+                    // align-items: flex-end;
+                    // border-radius: 100%;
+                    // transition: all 0.2s ease;
+    
+                    &:hover {
+                        // cursor: pointer;
+                        transform: scale(0.5);
+                    }
+                }
+    
+                //hover icon
+    
+                .log {
+                    position: relative;
+                    .icon {
+                        // color: powderblue;
+                        // position: absolute;
+                        top: -41.5px;
+                        left: 63.5px;
+                        // display: block;
+    
+                        //hover icon options
+                        .options {
+                            // background-color: $myDark;
+                            width: 180px;
+                            height: 130px;
+                            // display: grid;
+                            // grid-gap: 1em;
+                            // text-align: left;
+                            left: -95px;
+                            // color: $text;
+                            // border-radius: 2%;
+                            // z-index: 5;
+                            // position: absolute;
+                            // display: none;
+    
+                            // .one,
+                            // .two,
+                            // .three {
+                            //     padding-top: 10px;
+                            //     padding-left: 10px;
+                            //     width: 100%;
+                            //     height: 90%;
+                            //     transition: all 0.2s;
+                            //     display: grid;
+                            //     grid-template-columns: 18% 82%;
+                            //     z-index: 5;
+    
+                            //     &:hover {
+                            //         background-color: lighten($myDark, 20);
+                            //         cursor: pointer;
+                            //     }
+                            // }
+    
+                            // .one {
+                            //     &:hover {
+                            //         .one-icon {
+                            //             color: rgb(251, 255, 0);
+                            //         }
+                            //     }
+                            // }
+    
+                            // .two {
+                            //     &:hover {
+                            //         .two-icon {
+                            //             color: paleturquoise;
+                            //         }
+                            //     }
+                            // }
+    
+                            // .three {
+                            //     &:hover {
+                            //         .three-icon {
+                            //             color: red;
+                            //         }
+                            //     }
+                            // }
+                        }
+    
+                        // i {
+                        //     &:hover {
+                        //         cursor: pointer;
+                        //         transform: scale(1.15);
+                        //     }
+                        // }
+    
+                        // &:hover {
+                        //     .options {
+                        //         display: grid;
+                        //     }
+                        // }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//end 992px
+@media screen and (max-width: 768px) {
+
+  //      //general settings
+* {
+    font-size: 14px;
+}
+  
+    .nav {
+    
+        .navbar {
+            // border: 3px solid rgb(165, 26, 26);
+            height: 100%;
+            // width: 100%;
+            margin-left: -7%;
+            margin-top: -2%;
+            // background: #002244;
+            // display: grid;
+            grid-template-columns: 50vw 16vw 28vw;
+            // grid-gap: 2vw;
+            align-items: center;
+            // //logo
+            img {
+                transform: scale(0.4);
+                // margin-top: -7px;
+                // border: 1px solid white;
+            }
+    
+            //all nav
+            img,
+            .empty,
+            .person {
+                // border: 1px solid white;
+                // height: 100%;
+                // text-align: center;
+            }
+    
+            //person
+            .person {
+                // display: grid;
+                grid-template-columns: 70% 30%;
+            }
+    
+            //name
+            .name {
+                // display: grid;
+                // justify-content: end;
+                // align-items: center;
+                // .text {
+                //     font-size: 135%;
+                //     font-weight: 50;
+                //     // padding-bottom: 15px;
+                // }
+            }
+            //icon profile
+            .settings {
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                
+                img {
+                    // position: absolute;
+                    // margin-left: 5px;
+                    width: 95px;
+                    height: 95px;
+                    // left: 50px;
+                    // top: 15px;
+                    // margin-top: -15px;
+                    // align-items: flex-end;
+                    // border-radius: 100%;
+                    // transition: all 0.2s ease;
+    
+                    &:hover {
+                        // cursor: pointer;
+                        transform: scale(0.5);
+                    }
+                }
+    
+                //hover icon
+    
+                .log {
+                    position: relative;
+                    .icon {
+                        // color: powderblue;
+                        // position: absolute;
+                        top: -41.5px;
+                        left: 63.5px;
+                        // display: block;
+    
+                        //hover icon options
+                        .options {
+                            // background-color: $myDark;
+                            width: 170px;
+                            height: 130px;
+                            // display: grid;
+                            // grid-gap: 1em;
+                            // text-align: left;
+                            left: -95px;
+                            // color: $text;
+                            // border-radius: 2%;
+                            // z-index: 5;
+                            // position: absolute;
+                            // display: none;
+    
+                            // .one,
+                            // .two,
+                            // .three {
+                            //     padding-top: 10px;
+                            //     padding-left: 10px;
+                            //     width: 100%;
+                            //     height: 90%;
+                            //     transition: all 0.2s;
+                            //     display: grid;
+                            //     grid-template-columns: 18% 82%;
+                            //     z-index: 5;
+    
+                            //     &:hover {
+                            //         background-color: lighten($myDark, 20);
+                            //         cursor: pointer;
+                            //     }
+                            // }
+    
+                            // .one {
+                            //     &:hover {
+                            //         .one-icon {
+                            //             color: rgb(251, 255, 0);
+                            //         }
+                            //     }
+                            // }
+    
+                            // .two {
+                            //     &:hover {
+                            //         .two-icon {
+                            //             color: paleturquoise;
+                            //         }
+                            //     }
+                            // }
+    
+                            // .three {
+                            //     &:hover {
+                            //         .three-icon {
+                            //             color: red;
+                            //         }
+                            //     }
+                            // }
+                        }
+    
+                        // i {
+                        //     &:hover {
+                        //         cursor: pointer;
+                        //         transform: scale(1.15);
+                        //     }
+                        // }
+    
+                        // &:hover {
+                        //     .options {
+                        //         display: grid;
+                        //     }
+                        // }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 620px)  {
+//      //general settings
+* {
+    font-size: 13px;
+}
+  
+    .nav {
+    
+        .navbar {
+            // border: 3px solid rgb(165, 26, 26);
+            height: 100%;
+            // width: 100%;
+            margin-left: -7%;
+            margin-top: -3%;
+            // background: #002244;
+            // display: grid;
+            grid-template-columns: 50vw 10vw 34vw;
+            // grid-gap: 2vw;
+            align-items: center;
+            // //logo
+            img {
+                transform: scale(0.4);
+                // margin-top: -7px;
+                // border: 1px solid white;
+            }
+    
+            //all nav
+            img,
+            .empty,
+            .person {
+                // border: 1px solid white;
+                // height: 100%;
+                // text-align: center;
+            }
+    
+            //person
+            .person {
+                // display: grid;
+                grid-template-columns: 70% 30%;
+            }
+    
+            //name
+            .name {
+                // display: grid;
+                // justify-content: end;
+                // align-items: center;
+                // .text {
+                //     font-size: 135%;
+                //     font-weight: 50;
+                //     // padding-bottom: 15px;
+                // }
+            }
+            //icon profile
+            .settings {
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                
+                img {
+                    // position: absolute;
+                    // margin-left: 5px;
+                    width: 95px;
+                    height: 95px;
+                    // left: 50px;
+                    // top: 15px;
+                    // margin-top: -15px;
+                    // align-items: flex-end;
+                    // border-radius: 100%;
+                    // transition: all 0.2s ease;
+    
+                    &:hover {
+                        // cursor: pointer;
+                        transform: scale(0.5);
+                    }
+                }
+    
+                //hover icon
+    
+                .log {
+                    position: relative;
+                    .icon {
+                        // color: powderblue;
+                        // position: absolute;
+                        top: -41.5px;
+                        left: 63.5px;
+                        // display: block;
+    
+                        //hover icon options
+                        .options {
+                            // background-color: $myDark;
+                            width: 165px;
+                            height: 120px;
+                            // display: grid;
+                            // grid-gap: 1em;
+                            // text-align: left;
+                            left: -95px;
+                            // color: $text;
+                            // border-radius: 2%;
+                            // z-index: 5;
+                            // position: absolute;
+                            // display: none;
+    
+                            // .one,
+                            // .two,
+                            // .three {
+                            //     padding-top: 10px;
+                            //     padding-left: 10px;
+                            //     width: 100%;
+                            //     height: 90%;
+                            //     transition: all 0.2s;
+                            //     display: grid;
+                            //     grid-template-columns: 18% 82%;
+                            //     z-index: 5;
+    
+                            //     &:hover {
+                            //         background-color: lighten($myDark, 20);
+                            //         cursor: pointer;
+                            //     }
+                            // }
+    
+                            // .one {
+                            //     &:hover {
+                            //         .one-icon {
+                            //             color: rgb(251, 255, 0);
+                            //         }
+                            //     }
+                            // }
+    
+                            // .two {
+                            //     &:hover {
+                            //         .two-icon {
+                            //             color: paleturquoise;
+                            //         }
+                            //     }
+                            // }
+    
+                            // .three {
+                            //     &:hover {
+                            //         .three-icon {
+                            //             color: red;
+                            //         }
+                            //     }
+                            // }
+                        }
+    
+                        // i {
+                        //     &:hover {
+                        //         cursor: pointer;
+                        //         transform: scale(1.15);
+                        //     }
+                        // }
+    
+                        // &:hover {
+                        //     .options {
+                        //         display: grid;
+                        //     }
+                        // }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//end 767px
+@media screen and (max-width: 575px) {
+//      //general settings
+* {
+    font-size: 13px;
+}
+  
+    .nav {
+    
+        .navbar {
+            // border: 3px solid rgb(165, 26, 26);
+            height: 100%;
+            // width: 100%;
+            margin-left: -10%;
+            margin-top: -2%;
+            // background: #002244;
+            // display: grid;
+            grid-template-columns: 50vw 10vw 34vw;
+            // grid-gap: 2vw;
+            align-items: center;
+            // //logo
+            img {
+                transform: scale(0.4);
+                // margin-top: -7px;
+                // border: 1px solid white;
+            }
+    
+            //all nav
+            img,
+            .empty,
+            .person {
+                // border: 1px solid white;
+                // height: 100%;
+                // text-align: center;
+            }
+    
+            //person
+            .person {
+                // display: grid;
+                grid-template-columns: 70% 30%;
+            }
+    
+            //name
+            .name {
+                // display: grid;
+                // justify-content: end;
+                // align-items: center;
+                // .text {
+                //     font-size: 135%;
+                //     font-weight: 50;
+                //     // padding-bottom: 15px;
+                // }
+            }
+            //icon profile
+            .settings {
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                
+                img {
+                    // position: absolute;
+                    // margin-left: 5px;
+                    width: 75px;
+                    height: 75px;
+                    // left: 50px;
+                    // top: 15px;
+                    // margin-top: -15px;
+                    // align-items: flex-end;
+                    // border-radius: 100%;
+                    // transition: all 0.2s ease;
+    
+                    &:hover {
+                        // cursor: pointer;
+                        transform: scale(0.5);
+                    }
+                }
+    
+                //hover icon
+    
+                .log {
+                    position: relative;
+                    .icon {
+                        // color: powderblue;
+                        // position: absolute;
+                        top: -30.5px;
+                        left: 45.5px;
+                        // display: block;
+    
+                        //hover icon options
+                        .options {
+                            // background-color: $myDark;
+                            width: 158px;
+                            height: 120px;
+                            // display: grid;
+                            // grid-gap: 1em;
+                            // text-align: left;
+                            left: -75px;
+                            // color: $text;
+                            // border-radius: 2%;
+                            // z-index: 5;
+                            // position: absolute;
+                            // display: none;
+    
+                            // .one,
+                            // .two,
+                            // .three {
+                            //     padding-top: 10px;
+                            //     padding-left: 10px;
+                            //     width: 100%;
+                            //     height: 90%;
+                            //     transition: all 0.2s;
+                            //     display: grid;
+                            //     grid-template-columns: 18% 82%;
+                            //     z-index: 5;
+    
+                            //     &:hover {
+                            //         background-color: lighten($myDark, 20);
+                            //         cursor: pointer;
+                            //     }
+                            // }
+    
+                            // .one {
+                            //     &:hover {
+                            //         .one-icon {
+                            //             color: rgb(251, 255, 0);
+                            //         }
+                            //     }
+                            // }
+    
+                            // .two {
+                            //     &:hover {
+                            //         .two-icon {
+                            //             color: paleturquoise;
+                            //         }
+                            //     }
+                            // }
+    
+                            // .three {
+                            //     &:hover {
+                            //         .three-icon {
+                            //             color: red;
+                            //         }
+                            //     }
+                            // }
+                        }
+    
+                        // i {
+                        //     &:hover {
+                        //         cursor: pointer;
+                        //         transform: scale(1.15);
+                        //     }
+                        // }
+    
+                        // &:hover {
+                        //     .options {
+                        //         display: grid;
+                        //     }
+                        // }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//end 575px
+@media screen and (max-width: 480px) {
+//      //general settings
+* {
+    font-size: 12px;
+}
+  
+    .nav {
+    
+        .navbar {
+            // border: 3px solid rgb(165, 26, 26);
+            height: 100%;
+            // width: 100%;
+            // margin-left: -10%;
+            margin-top: -2%;
+            // background: #002244;
+            // display: grid;
+            grid-template-columns: 50vw 10vw 34vw;
+            // grid-gap: 2vw;
+            align-items: center;
+            // //logo
+            img {
+                transform: scale(0.4);
+                // margin-top: -7px;
+                // border: 1px solid white;
+            }
+    
+            //all nav
+            img,
+            .empty,
+            .person {
+                // border: 1px solid white;
+                // height: 100%;
+                // text-align: center;
+            }
+    
+            //person
+            .person {
+                // display: grid;
+                grid-template-columns: 70% 30%;
+            }
+    
+            //name
+            .name {
+                // display: grid;
+                // justify-content: end;
+                // align-items: center;
+                // .text {
+                //     font-size: 135%;
+                //     font-weight: 50;
+                //     // padding-bottom: 15px;
+                // }
+            }
+            //icon profile
+            .settings {
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                
+                img {
+                    // position: absolute;
+                    // margin-left: 5px;
+                    width: 75px;
+                    height: 75px;
+                    // left: 50px;
+                    // top: 15px;
+                    // margin-top: -15px;
+                    // align-items: flex-end;
+                    // border-radius: 100%;
+                    // transition: all 0.2s ease;
+    
+                    &:hover {
+                        // cursor: pointer;
+                        transform: scale(0.5);
+                    }
+                }
+    
+                //hover icon
+    
+                .log {
+                    position: relative;
+                    .icon {
+                        // color: powderblue;
+                        // position: absolute;
+                        top: -30.5px;
+                        left: 45.5px;
+                        // display: block;
+    
+                        //hover icon options
+                        .options {
+                            // background-color: $myDark;
+                            width: 142.5px;
+                            height: 110px;
+                            // display: grid;
+                            // grid-gap: 1em;
+                            // text-align: left;
+                            left: -85px;
+                            // color: $text;
+                            // border-radius: 2%;
+                            // z-index: 5;
+                            // position: absolute;
+                            // display: none;
+    
+                            // .one,
+                            // .two,
+                            // .three {
+                            //     padding-top: 10px;
+                            //     padding-left: 10px;
+                            //     width: 100%;
+                            //     height: 90%;
+                            //     transition: all 0.2s;
+                            //     display: grid;
+                            //     grid-template-columns: 18% 82%;
+                            //     z-index: 5;
+    
+                            //     &:hover {
+                            //         background-color: lighten($myDark, 20);
+                            //         cursor: pointer;
+                            //     }
+                            // }
+    
+                            // .one {
+                            //     &:hover {
+                            //         .one-icon {
+                            //             color: rgb(251, 255, 0);
+                            //         }
+                            //     }
+                            // }
+    
+                            // .two {
+                            //     &:hover {
+                            //         .two-icon {
+                            //             color: paleturquoise;
+                            //         }
+                            //     }
+                            // }
+    
+                            // .three {
+                            //     &:hover {
+                            //         .three-icon {
+                            //             color: red;
+                            //         }
+                            //     }
+                            // }
+                        }
+    
+                        // i {
+                        //     &:hover {
+                        //         cursor: pointer;
+                        //         transform: scale(1.15);
+                        //     }
+                        // }
+    
+                        // &:hover {
+                        //     .options {
+                        //         display: grid;
+                        //     }
+                        // }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//end 480px
+@media screen and (max-width: 400px) {
+//      //general settings
+* {
+    font-size: 11px;
+}
+  
+    .nav {
+    
+        .navbar {
+            // border: 3px solid rgb(165, 26, 26);
+            height: 100%;
+            width: 100%;
+            margin-left: -15%;
+            // background: #002244;
+            // display: grid;
+            grid-template-columns: 50vw 16vw 34vw;
+            // grid-gap: 2vw;
+            // align-items: center;
+            // //logo
+            img {
+                transform: scale(0.4);
+                // margin-top: -7px;
+                // border: 1px solid white;
+            }
+    
+            //all nav
+            img,
+            .empty,
+            .person {
+                // border: 1px solid white;
+                // height: 100%;
+                // text-align: center;
+            }
+    
+            //person
+            .person {
+                // display: grid;
+                grid-template-columns: 70% 30%;
+            }
+    
+            //name
+            .name {
+                // display: grid;
+                // justify-content: end;
+                // align-items: center;
+                // .text {
+                //     font-size: 135%;
+                //     font-weight: 50;
+                //     padding-bottom: 5px;
+                // }
+            }
+            //icon profile
+            .settings {
+                // display: grid;
+                // justify-content: center;
+                // align-items: center;
+    
+                img {
+                    margin-left: 5px;
+                    width: 60px;
+                    height: 60px;
+                    background: #fff;
+                    margin-top: 0px;
+                    // border-radius: 100%;
+                    // transition: all 0.2s ease;
+    
+                    // &:hover {
+                    //     cursor: pointer;
+                    //     transform: scale(0.85);
+                    // }
+                }
+    
+                //hover icon
+    
+                .log {
+                    position: relative;
+                    .icon {
+                        // color: powderblue;
+                        // position: absolute;
+                        top: -25.5px;
+                        left: 40.5px;
+                        // display: block;
+    
+                        //hover icon options
+                        .options {
+                            // background-color: $myDark;
+                            width: 117px;
+                            height: 100px;
+                            // display: grid;
+                            // grid-gap: 1em;
+                            // text-align: left;
+                            left: -70px;
+                            // color: $text;
+                            // border-radius: 2%;
+                            // z-index: 5;
+                            // position: absolute;
+                            // display: none;
+    
+                            // .one,
+                            // .two,
+                            // .three {
+                            //     padding-top: 10px;
+                            //     padding-left: 10px;
+                            //     width: 100%;
+                            //     height: 90%;
+                            //     transition: all 0.2s;
+                            //     display: grid;
+                            //     grid-template-columns: 18% 82%;
+                            //     z-index: 5;
+    
+                            //     &:hover {
+                            //         background-color: lighten($myDark, 20);
+                            //         cursor: pointer;
+                            //     }
+                            // }
+    
+                            // .one {
+                            //     &:hover {
+                            //         .one-icon {
+                            //             color: rgb(251, 255, 0);
+                            //         }
+                            //     }
+                            // }
+    
+                            // .two {
+                            //     &:hover {
+                            //         .two-icon {
+                            //             color: paleturquoise;
+                            //         }
+                            //     }
+                            // }
+    
+                            // .three {
+                            //     &:hover {
+                            //         .three-icon {
+                            //             color: red;
+                            //         }
+                            //     }
+                            // }
+                        }
+    
+                        // i {
+                        //     &:hover {
+                        //         cursor: pointer;
+                        //         transform: scale(1.15);
+                        //     }
+                        // }
+    
+                        // &:hover {
+                        //     .options {
+                        //         display: grid;
+                        //     }
+                        // }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//end 400px
+
+@media screen and (max-width: 320px) {//Navbar
+  //general settings
+* {
+    font-size: 10px;
+}
+  
+    .nav {
+    
+        .navbar {
+            // border: 3px solid rgb(165, 26, 26);
+            height: 100%;
+            width: 100%;
+            margin-left: -17%;
+            // background: #002244;
+            // display: grid;
+            grid-template-columns: 50vw 20vw 30vw;
+            // grid-gap: 2vw;
+            // align-items: center;
+            // //logo
+            img {
+                transform: scale(0.4);
+                // margin-top: -7px;
+                // border: 1px solid white;
+            }
+    
+            //all nav
+            img,
+            .empty,
+            .person {
+                // border: 1px solid white;
+                // height: 100%;
+                // text-align: center;
+            }
+    
+            //person
+            .person {
+                // display: grid;
+                grid-template-columns: 70% 30%;
+            }
+    
+            //name
+            .name {
+                // display: grid;
+                // justify-content: end;
+                // align-items: center;
+                // .text {
+                //     font-size: 135%;
+                //     font-weight: 50;
+                //     padding-bottom: 5px;
+                // }
+            }
+            //icon profile
+            .settings {
+                // display: grid;
+                // justify-content: center;
+                // align-items: center;
+    
+                img {
+                    margin-left: 5px;
+                    width: 55px;
+                    height: 55px;
+                    background: #fff;
+                    margin-top: 0px;
+                    // border-radius: 100%;
+                    // transition: all 0.2s ease;
+    
+                    // &:hover {
+                    //     cursor: pointer;
+                    //     transform: scale(0.85);
+                    // }
+                }
+    
+                //hover icon
+    
+                .log {
+                    position: relative;
+                    .icon {
+                        // color: powderblue;
+                        // position: absolute;
+                        top: -26.5px;
+                        left: 40.5px;
+                        // display: block;
+    
+                        //hover icon options
+                        .options {
+                            // background-color: $myDark;
+                            width: 90px;
+                            height: 100px;
+                            // display: grid;
+                            // grid-gap: 1em;
+                            // text-align: left;
+                            left: -50px;
+                            // color: $text;
+                            // border-radius: 2%;
+                            // z-index: 5;
+                            // position: absolute;
+                            // display: none;
+    
+                            // .one,
+                            // .two,
+                            // .three {
+                            //     padding-top: 10px;
+                            //     padding-left: 10px;
+                            //     width: 100%;
+                            //     height: 90%;
+                            //     transition: all 0.2s;
+                            //     display: grid;
+                            //     grid-template-columns: 18% 82%;
+                            //     z-index: 5;
+    
+                            //     &:hover {
+                            //         background-color: lighten($myDark, 20);
+                            //         cursor: pointer;
+                            //     }
+                            // }
+    
+                            // .one {
+                            //     &:hover {
+                            //         .one-icon {
+                            //             color: rgb(251, 255, 0);
+                            //         }
+                            //     }
+                            // }
+    
+                            // .two {
+                            //     &:hover {
+                            //         .two-icon {
+                            //             color: paleturquoise;
+                            //         }
+                            //     }
+                            // }
+    
+                            // .three {
+                            //     &:hover {
+                            //         .three-icon {
+                            //             color: red;
+                            //         }
+                            //     }
+                            // }
+                        }
+    
+                        // i {
+                        //     &:hover {
+                        //         cursor: pointer;
+                        //         transform: scale(1.15);
+                        //     }
+                        // }
+    
+                        // &:hover {
+                        //     .options {
+                        //         display: grid;
+                        //     }
+                        // }
+                    }
+                }
+            }
+        }
+    }}

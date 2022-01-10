@@ -6,7 +6,6 @@
   font-size: 18px;
 }
 
-<<<<<<< HEAD
 .icon::before {
   display: inline-block;
   font-style: normal;
@@ -15,16 +14,14 @@
   -webkit-font-smoothing: antialiased;
 }
 
-=======
->>>>>>> 093c7942464f8ccee074f3f9c5d930a3b4c08f3a
 .container {
   width: 100vw;
   height: 100vh;
   background-color: #f5f6f7;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 7vh 86vh 7vh;
-      grid-template-rows: 7vh 86vh 7vh;
+  -ms-grid-rows: 65px 86.8vh 60px;
+      grid-template-rows: 65px 86.8vh 60px;
   -ms-grid-columns: 100vw;
       grid-template-columns: 100vw;
   -webkit-box-pack: center;
@@ -107,13 +104,8 @@
   height: 55px;
   background: #fff;
   border-radius: 100%;
-<<<<<<< HEAD
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
-=======
-  -webkit-transition: all .2s ease;
-  transition: all .2s ease;
->>>>>>> 093c7942464f8ccee074f3f9c5d930a3b4c08f3a
 }
 
 .container .nav .navbar .settings img:hover {
@@ -122,7 +114,6 @@
           transform: scale(0.85);
 }
 
-<<<<<<< HEAD
 .container .nav .navbar .settings .log {
   position: relative;
 }
@@ -137,8 +128,8 @@
 
 .container .nav .navbar .settings .log .icon .options {
   background-color: #002244;
-  width: 170px;
-  height: 140px;
+  width: 210px;
+  height: 160px;
   text-align: left;
   left: -15px;
   color: #f5f6f7e3;
@@ -171,6 +162,18 @@
   cursor: pointer;
 }
 
+.container .nav .navbar .settings .log .icon .options .one:hover .one-icon {
+  color: #fbff00;
+}
+
+.container .nav .navbar .settings .log .icon .options .two:hover .two-icon {
+  color: paleturquoise;
+}
+
+.container .nav .navbar .settings .log .icon .options .three:hover .three-icon {
+  color: red;
+}
+
 .container .nav .navbar .settings .log .icon i:hover {
   cursor: pointer;
   -webkit-transform: scale(1.15);
@@ -182,19 +185,730 @@
   display: grid;
 }
 
-=======
->>>>>>> 093c7942464f8ccee074f3f9c5d930a3b4c08f3a
-.container .content .middle {
-  border: 3px solid #a51a1a;
-  height: 100%;
-  color: midnightblue;
-  font-size: 200%;
-  background-color: yellow;
-<<<<<<< HEAD
+@media screen and (max-width: 1600px) {
+  .container * {
+    font-size: 17px;
+  }
+  .container .nav .navbar {
+    height: 100%;
+    margin: 0%;
+    margin-left: 4%;
+    margin-top: -1.5%;
+    -ms-grid-columns: 40vw 10vw 28vw;
+        grid-template-columns: 40vw 10vw 28vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .nav .navbar img {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+  }
+  .container .nav .navbar .person {
+    -ms-grid-columns: 70% 30%;
+        grid-template-columns: 70% 30%;
+  }
+  .container .nav .navbar .settings {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .nav .navbar .settings img {
+    width: 95px;
+    height: 95px;
+  }
+  .container .nav .navbar .settings img:hover {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  .container .nav .navbar .settings .log {
+    position: relative;
+  }
+  .container .nav .navbar .settings .log .icon {
+    top: -41.5px;
+    left: 63.5px;
+  }
+  .container .nav .navbar .settings .log .icon .options {
+    width: 210px;
+    height: 160px;
+    left: -35px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .container * {
+    font-size: 17px;
+  }
+  .container .nav .navbar {
+    height: 100%;
+    margin: 0%;
+    margin-left: 4%;
+    margin-top: -1.7%;
+    -ms-grid-columns: 40vw 10vw 28vw;
+        grid-template-columns: 40vw 10vw 28vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .nav .navbar img {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+  }
+  .container .nav .navbar .person {
+    -ms-grid-columns: 70% 30%;
+        grid-template-columns: 70% 30%;
+  }
+  .container .nav .navbar .settings {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .nav .navbar .settings img {
+    width: 95px;
+    height: 95px;
+  }
+  .container .nav .navbar .settings img:hover {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  .container .nav .navbar .settings .log {
+    position: relative;
+  }
+  .container .nav .navbar .settings .log .icon {
+    top: -41.5px;
+    left: 63.5px;
+  }
+  .container .nav .navbar .settings .log .icon .options {
+    width: 210px;
+    height: 160px;
+    left: -35px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container * {
+    font-size: 16px;
+  }
+  .container .nav .navbar {
+    height: 100%;
+    margin: 0%;
+    margin-left: 4%;
+    margin-top: -1.7%;
+    -ms-grid-columns: 40vw 10vw 28vw;
+        grid-template-columns: 40vw 10vw 28vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .nav .navbar img {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+  }
+  .container .nav .navbar .person {
+    -ms-grid-columns: 70% 30%;
+        grid-template-columns: 70% 30%;
+  }
+  .container .nav .navbar .settings {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .nav .navbar .settings img {
+    width: 95px;
+    height: 95px;
+  }
+  .container .nav .navbar .settings img:hover {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  .container .nav .navbar .settings .log {
+    position: relative;
+  }
+  .container .nav .navbar .settings .log .icon {
+    top: -41.5px;
+    left: 63.5px;
+  }
+  .container .nav .navbar .settings .log .icon .options {
+    width: 200px;
+    height: 150px;
+    left: -35px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container * {
+    font-size: 15px;
+  }
+  .container .nav .navbar {
+    height: 100%;
+    margin: 0%;
+    margin-left: -2%;
+    margin-top: -1.9%;
+    -ms-grid-columns: 50vw 10vw 28vw;
+        grid-template-columns: 50vw 10vw 28vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .nav .navbar img {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+  }
+  .container .nav .navbar .person {
+    -ms-grid-columns: 70% 30%;
+        grid-template-columns: 70% 30%;
+  }
+  .container .nav .navbar .settings {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .nav .navbar .settings img {
+    width: 95px;
+    height: 95px;
+  }
+  .container .nav .navbar .settings img:hover {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  .container .nav .navbar .settings .log {
+    position: relative;
+  }
+  .container .nav .navbar .settings .log .icon {
+    top: -41.5px;
+    left: 63.5px;
+  }
+  .container .nav .navbar .settings .log .icon .options {
+    width: 180px;
+    height: 130px;
+    left: -65px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container * {
+    font-size: 14px;
+  }
+  .container .nav .navbar {
+    height: 100%;
+    margin-left: -7%;
+    margin-top: -2%;
+    -ms-grid-columns: 50vw 16vw 28vw;
+        grid-template-columns: 50vw 16vw 28vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .nav .navbar img {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+  }
+  .container .nav .navbar .person {
+    -ms-grid-columns: 70% 30%;
+        grid-template-columns: 70% 30%;
+  }
+  .container .nav .navbar .settings {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .nav .navbar .settings img {
+    width: 95px;
+    height: 95px;
+  }
+  .container .nav .navbar .settings img:hover {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  .container .nav .navbar .settings .log {
+    position: relative;
+  }
+  .container .nav .navbar .settings .log .icon {
+    top: -41.5px;
+    left: 63.5px;
+  }
+  .container .nav .navbar .settings .log .icon .options {
+    width: 180px;
+    height: 130px;
+    left: -95px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container * {
+    font-size: 14px;
+  }
+  .container .nav .navbar {
+    height: 100%;
+    margin-left: -7%;
+    margin-top: -2%;
+    -ms-grid-columns: 50vw 16vw 28vw;
+        grid-template-columns: 50vw 16vw 28vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .nav .navbar img {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+  }
+  .container .nav .navbar .person {
+    -ms-grid-columns: 70% 30%;
+        grid-template-columns: 70% 30%;
+  }
+  .container .nav .navbar .settings {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .nav .navbar .settings img {
+    width: 95px;
+    height: 95px;
+  }
+  .container .nav .navbar .settings img:hover {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  .container .nav .navbar .settings .log {
+    position: relative;
+  }
+  .container .nav .navbar .settings .log .icon {
+    top: -41.5px;
+    left: 63.5px;
+  }
+  .container .nav .navbar .settings .log .icon .options {
+    width: 170px;
+    height: 130px;
+    left: -95px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .container * {
+    font-size: 13px;
+  }
+  .container .nav .navbar {
+    height: 100%;
+    margin-left: -7%;
+    margin-top: -3%;
+    -ms-grid-columns: 50vw 10vw 34vw;
+        grid-template-columns: 50vw 10vw 34vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .nav .navbar img {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+  }
+  .container .nav .navbar .person {
+    -ms-grid-columns: 70% 30%;
+        grid-template-columns: 70% 30%;
+  }
+  .container .nav .navbar .settings {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .nav .navbar .settings img {
+    width: 95px;
+    height: 95px;
+  }
+  .container .nav .navbar .settings img:hover {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  .container .nav .navbar .settings .log {
+    position: relative;
+  }
+  .container .nav .navbar .settings .log .icon {
+    top: -41.5px;
+    left: 63.5px;
+  }
+  .container .nav .navbar .settings .log .icon .options {
+    width: 165px;
+    height: 120px;
+    left: -95px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container * {
+    font-size: 13px;
+  }
+  .container .nav .navbar {
+    height: 100%;
+    margin-left: -10%;
+    margin-top: -2%;
+    -ms-grid-columns: 50vw 10vw 34vw;
+        grid-template-columns: 50vw 10vw 34vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .nav .navbar img {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+  }
+  .container .nav .navbar .person {
+    -ms-grid-columns: 70% 30%;
+        grid-template-columns: 70% 30%;
+  }
+  .container .nav .navbar .settings {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .nav .navbar .settings img {
+    width: 75px;
+    height: 75px;
+  }
+  .container .nav .navbar .settings img:hover {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  .container .nav .navbar .settings .log {
+    position: relative;
+  }
+  .container .nav .navbar .settings .log .icon {
+    top: -30.5px;
+    left: 45.5px;
+  }
+  .container .nav .navbar .settings .log .icon .options {
+    width: 158px;
+    height: 120px;
+    left: -75px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container * {
+    font-size: 12px;
+  }
+  .container .nav .navbar {
+    height: 100%;
+    margin-top: -2%;
+    -ms-grid-columns: 50vw 10vw 34vw;
+        grid-template-columns: 50vw 10vw 34vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .nav .navbar img {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+  }
+  .container .nav .navbar .person {
+    -ms-grid-columns: 70% 30%;
+        grid-template-columns: 70% 30%;
+  }
+  .container .nav .navbar .settings {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .nav .navbar .settings img {
+    width: 75px;
+    height: 75px;
+  }
+  .container .nav .navbar .settings img:hover {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  .container .nav .navbar .settings .log {
+    position: relative;
+  }
+  .container .nav .navbar .settings .log .icon {
+    top: -30.5px;
+    left: 45.5px;
+  }
+  .container .nav .navbar .settings .log .icon .options {
+    width: 142.5px;
+    height: 110px;
+    left: -85px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container * {
+    font-size: 11px;
+  }
+  .container .nav .navbar {
+    height: 100%;
+    width: 100%;
+    margin-left: -15%;
+    -ms-grid-columns: 50vw 16vw 34vw;
+        grid-template-columns: 50vw 16vw 34vw;
+  }
+  .container .nav .navbar img {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+  }
+  .container .nav .navbar .person {
+    -ms-grid-columns: 70% 30%;
+        grid-template-columns: 70% 30%;
+  }
+  .container .nav .navbar .settings img {
+    margin-left: 5px;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    margin-top: 0px;
+  }
+  .container .nav .navbar .settings .log {
+    position: relative;
+  }
+  .container .nav .navbar .settings .log .icon {
+    top: -25.5px;
+    left: 40.5px;
+  }
+  .container .nav .navbar .settings .log .icon .options {
+    width: 117px;
+    height: 100px;
+    left: -70px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container * {
+    font-size: 10px;
+  }
+  .container .nav .navbar {
+    height: 100%;
+    width: 100%;
+    margin-left: -17%;
+    -ms-grid-columns: 50vw 20vw 30vw;
+        grid-template-columns: 50vw 20vw 30vw;
+  }
+  .container .nav .navbar img {
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
+  }
+  .container .nav .navbar .person {
+    -ms-grid-columns: 70% 30%;
+        grid-template-columns: 70% 30%;
+  }
+  .container .nav .navbar .settings img {
+    margin-left: 5px;
+    width: 55px;
+    height: 55px;
+    background: #fff;
+    margin-top: 0px;
+  }
+  .container .nav .navbar .settings .log {
+    position: relative;
+  }
+  .container .nav .navbar .settings .log .icon {
+    top: -26.5px;
+    left: 40.5px;
+  }
+  .container .nav .navbar .settings .log .icon .options {
+    width: 90px;
+    height: 100px;
+    left: -50px;
+  }
+}
+
+.container .content {
+  background-image: url("../images/newera.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: block;
   position: relative;
-  z-index: 1;
-=======
->>>>>>> 093c7942464f8ccee074f3f9c5d930a3b4c08f3a
+}
+
+.container .content .middle {
+  height: 100%;
+  color: #002244;
+  font-size: 200%;
+  position: relative;
+  background-color: rgba(238, 240, 241, 0.5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container .content .middle .new-chat {
+  position: relative;
+}
+
+.container .content .middle .middle-menu {
+  font-family: sans-serif;
+  width: 440px;
+  height: 250px;
+  position: absolute;
+  left: 1100px;
+  top: 50px;
+}
+
+.container .content .middle .middle-menu .newchat-icon .triangle2 {
+  left: 53px;
+  top: 17px;
+  background-color: darkgrey;
+}
+
+.container .content .middle .middle-menu .newchat-icon .new {
+  padding: 10px;
+  color: #002244;
+  background-color: darkgrey;
+  position: absolute;
+  top: 7px;
+  left: 70px;
+  width: 170px;
+  border-radius: 2px;
+}
+
+.container .content .middle .middle-menu .newchat-icon .one-icon i {
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  position: absolute;
+  top: 110px;
+  left: -90px;
+  color: darkgrey;
+}
+
+.container .content .middle .middle-menu .newchat-icon .one-icon i:hover {
+  cursor: pointer;
+  color: #002244;
+}
+
+.container .content .middle .middle-menu .newchat-icon .triangle1, .container .content .middle .middle-menu .newchat-icon .triangle2 {
+  width: 20px;
+  height: 20px;
+  -webkit-clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+          clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+  position: absolute;
+}
+
+.container .content .middle .middle-menu .newchat-icon .triangle1 {
+  left: -40px;
+  top: 127px;
+  background-color: #002244;
+  display: none;
+}
+
+.container .content .middle .middle-menu .newchat-icon .triangle3 {
+  position: absolute;
+  left: 390px;
+  top: 37px;
+  color: #f5f6f7e3;
+  background-color: #002244;
+  border-radius: 50%;
+  width: 18px;
+  text-align: center;
+  height: 18px;
+  font-size: 12px;
+  padding-top: 3px;
+  display: none;
+}
+
+.container .content .middle .middle-menu .newchat-icon .triangle3:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+  color: red;
+}
+
+.container .content .middle .middle-menu .middle-options {
+  position: absolute;
+  left: -20px;
+  top: 60px;
+  display: -ms-grid;
+  display: grid;
+  height: 70%;
+  width: 95%;
+  display: none;
+}
+
+.container .content .middle .middle-menu .middle-options .option1,
+.container .content .middle .middle-menu .middle-options .option2,
+.container .content .middle .middle-menu .middle-options .option3 {
+  padding: 7px;
+  padding-top: 13px;
+  text-align: left;
+  padding-bottom: 13px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 8% 92%;
+      grid-template-columns: 8% 92%;
+  cursor: pointer;
+  background-color: #002244;
+  color: #f5f6f7e3;
+}
+
+.container .content .middle .middle-menu .middle-options .option1:hover,
+.container .content .middle .middle-menu .middle-options .option2:hover,
+.container .content .middle .middle-menu .middle-options .option3:hover {
+  background-color: #0055aa;
+}
+
+.container .content .middle .middle-menu .middle-options .option1 {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.container .content .middle .middle-menu .middle-options .option1:hover .o-icon {
+  color: #ffae00;
+}
+
+.container .content .middle .middle-menu .middle-options .option2:hover .t-icon {
+  color: palevioletred;
+}
+
+.container .content .middle .middle-menu .middle-options .option3 {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.container .content .middle .middle-menu .middle-options .option3:hover .th-icon {
+  color: turquoise;
 }
 
 .container .footer {

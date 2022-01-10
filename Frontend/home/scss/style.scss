@@ -17,187 +17,30 @@
     -webkit-font-smoothing: antialiased;
 }
 
+//main container
 .container {
     width: 100vw;
     height: 100vh;
     background-color: #f5f6f7;
     display: grid;
-    grid-template-rows: 7vh 86vh 7vh;
+    grid-template-rows: 65px 86.8vh 60px;   //822px
     grid-template-columns: 100vw;
     justify-content: center;
     // border: 5px solid navy;
     color: $text;
     font-family: Verdana, sans-serif;
 
-    //Navbar
-    .nav {
-        // border: 2px solid white;
-        background: $myDark;
-        padding-top: 5px;
 
-        .navbar {
-            // border: 3px solid rgb(165, 26, 26);
-            height: 100%;
-            width: 80%;
-            margin-left: 10%;
-            background: #002244;
-            display: grid;
-            grid-template-columns: 16vw 38vw 20vw;
-            grid-gap: 2vw;
-            align-items: center;
-            //logo
-            img {
-                transform: scale(0.7);
-                margin-top: -7px;
-                // border: 1px solid white;
-            }
-
-            //all nav
-            img,
-            .empty,
-            .person {
-                // border: 1px solid white;
-                height: 100%;
-                text-align: center;
-            }
-
-            //person
-            .person {
-                display: grid;
-                grid-template-columns: 80% 20%;
-            }
-
-            //name
-            .name {
-                display: grid;
-                justify-content: end;
-                align-items: center;
-                .text{
-                    font-size: 135%;
-                    font-weight: 50;
-                    padding-bottom: 5px;
-                }
-
-            //icon profile
-            .settings {
-                display: grid;
-                justify-content: center;
-                align-items: center;
-
-                img {
-                    // margin-left: 10px;
-                    width: 55px;
-                    height: 55px;
-                    background: #fff;
-                    // margin-top: 5px;
-                    border-radius: 100%;
-                    transition: all 0.2s ease;
-
-                    &:hover {
-                        cursor: pointer;
-                        transform: scale(0.85);
-                    }
-                }
-
-                //logo icon
-
-                .log {
-                    position: relative;
-                    .icon {
-                        color: powderblue;
-                        position: absolute;
-                        top: -23.5px;
-                        left: 42.5px;
-                        display: block;
-
-                        .options {
-                            background-color: $myDark;
-                            width: 170px;
-                            height: 140px;
-                            // display: grid;
-                            // grid-gap: 1em;
-                            text-align: left;
-                            left: -15px;
-                            color: $text;
-                            border-radius: 2%;
-                            z-index: 5;
-                            position: absolute;
-                            display: none;
-
-                            .one,
-                            .two,
-                            .three {
-                                padding-top: 10px;
-                                padding-left: 10px;
-                                width: 100%;
-                                height: 90%;
-                                transition: all 0.2s;
-                                display: grid;
-                                grid-template-columns: 18% 82%;
-                                z-index: 5;
-
-                                &:hover {
-                                    background-color: lighten($myDark, 20);
-                                    cursor: pointer;
-                                }
-                            }
-                        }
-
-                        i {
-                            &:hover {
-                                cursor: pointer;
-                                transform: scale(1.15);
-
-                               
-                            }
-                        }
-
-                        &:hover{
-                            .options{
-                                display: grid;
-                            }
-                        }
-                    }
-
-                }
-            }
-        }
-    }
+@import "navbar/navbar";
 
     //Content
-    .content {
-
-        .middle {
-            border: 3px solid rgb(165, 26, 26);
-            height: 100%;
-            color: midnightblue;
-            font-size: 200%;
-            background-color: yellow;
-            position: relative;
-            z-index: 1;
-
-            // .try{
-            //     position: absolute;
-            //     height: 50px;
-            //     width: 50px;
-
-            //     &::after{
-            //         content: "\f102";
-            //         position: absolute;
-            //         font-family: "Font Awesome 5 Free";
-            //         font-weight: 900;
-            //         color: red;
-            //         display: block;
-            //     }
-            // }
-        }
-    }
+@import "content/middle";
+    
 
     //footer
     .footer {
         // background: midnightblue;
         background: $myDark;
-
 
         .end {
             border: 3px solid rgb(165, 26, 26);
@@ -206,7 +49,6 @@
             margin-left: 10%;
             // background: lighten(rgba(,11, 38, 0.96), 10);
             background: $myDark;
-
         }
     }
 }
